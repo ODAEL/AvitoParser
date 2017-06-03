@@ -1,6 +1,6 @@
 <?php echo $this->render('header.phtml'); ?>
 
     <h1><?php echo $this->escape($this->title); ?></h1>
-
+    <h2><?php while($this->parsing){echo $this->currentsl; sleep(1);} ?></h2>
 
 <?php echo $this->render('footer.phtml'); ?>

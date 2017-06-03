@@ -2,7 +2,7 @@
 
     <h1><?php echo $this->escape($this->title); ?></h1>
 
-    <form action="<?php echo $this->baseUrl ?>/index/parse" method="post">
+    <form action="<?php echo $this->baseUrl ?>/parse" method="post">
         <input type="text" name="query">
         <input type="submit" name="parse" value="Парсить">
     </form>
